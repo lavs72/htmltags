@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>html Code and Output</title>
+  <style>
+    pre,p,datalist,label,input,option{
+      font-size:20px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Code and Output for datalist:</h1>
+  
+  <h2>Code:</h2>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;HTML Example&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;The datalist element&lt;/h1&gt;
+      &lt;form action="/action_page.php" method="get"&gt;
+        &lt;label for="browser"&gt;Choose your browser from the list:&lt;/label&gt;
+        &lt;input list="browsers" name="browser" id="browser"&gt;
+        &lt;datalist id="browsers"&gt;
+          &lt;option value="Edge"&gt;
+          &lt;option value="Firefox"&gt;
+          &lt;option value="Chrome"&gt;
+          &lt;option value="Opera"&gt;
+          &lt;option value="Safari"&gt;
+          &lt;/datalist&gt;
+          &lt;input type="submit"&gt;
+          &lt;/form&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
+  <h2>Output:</h2>
+  <h1>The datalist element</h1>
+  <form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+</body>
+</html>

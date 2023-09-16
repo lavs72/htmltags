@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>html Code and Output</title>
+  <style>
+    pre,p{
+      font-size:20px;
+    }
+
+  </style>
+</head>
+  <h1>Code and Output for noframes:</h1>
+  
+  <h2>Code:</h2>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;HTML Example&lt;/title&gt;
+    &lt;/head&gt;
+      
+      &lt;frameset cols = "25%,50%,25%"&gt;
+        &lt;frame name = "left" src = "frame1.html" /&gt;
+        &lt;frame name = "center" src = "frame2.html" /&gt;
+        &lt;frame name = "right" src = "frame3.html" /&gt;
+    &lt;/frameset&gt;
+     &lt;noframes&gt;
+      &lt;body&gt;Your browser does not support frames.&lt;/body&gt;
+    &lt;/noframes&gt;
+    &lt;/html&gt;
+  </pre>
+  <h2>Output:</h2>
+  <p>frame,frameset,noframes does not support html5</p>
+  <frameset cols = "25%,50%,25%">
+    <frame name = "left" src = "frame1.html" />
+    <frame name = "center" src = "frame2.html" />
+    <frame name = "right" src = "frame3.html" />
+  </frameset>
+ <noframes>
+  <body>Your browser does not support frames.</body>
+</noframes>
+
+</html>

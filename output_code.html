@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>html Code and Output</title>
+  <style>
+    pre,p{
+      font-size:20px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Code and Output for output:</h1>
+  
+  <h2>Code:</h2>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;HTML Example&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;The output element&lt;/h1&gt;
+      &lt;form oninput="x.value=parseInt(a.value)+parseInt(b.value)"&gt;
+      &lt;input type="range" id="a" value="50"&Gt;
+      +&lt;input type="number" id="b" value="25"&gt;
+      =&lt;output name="x" for="a b"&gt;&lt;/output&gt;
+      &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The output element is not supported in Edge 12 (or earlier).&lt;/p&gt;
+      &lt;/form&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
+  <h2>Output:</h2>
+  <h1>The output element</h1>
+  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
++ <input type="number" id="b" value="25">
+= <output name="x" for="a b"></output>
+ <p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+ </form>
+</body>
+</html>

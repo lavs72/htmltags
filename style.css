@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background-color:aquamarine;
+  }
+
+h1 {
+    color: #007bff;
+  }
+.img{
+    width:120px;
+    height:80px;
+
+  }
+  #table-container{
+    
+    display:flex;
+    justify-content:center;
+  }
+  b{
+    text-align:center;
+    font-size: 30px;
+  }
+  .footer{
+    text-decoration-color: aliceblue;
+  }
+
+  table {
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color:bisque;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }

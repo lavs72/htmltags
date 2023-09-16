@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>html Code and Output</title>
+  <style>
+    pre,p{
+      font-size:20px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Code and Output for template:</h1>
+  
+  <h2>Code:</h2>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;HTML Example&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1&gt;The template Element&lt;/h1&gt;
+    &lt;p&gt;Click the button below to display the hidden content from the template element.&lt;/p&gt;
+    &lt;button onclick="showContent()"&gt;Show hidden content&lt;/button&gt;
+    &lt;template&gt;
+      &lt;h2&gt;Flower&lt;/h2&gt;
+      &lt;img src="Waterfall.jpg" width="214" height="204"&gt;
+      &lt;/template&gt;
+      &lt;script&gt;
+      function showContent() {
+        let temp = document.getElementsByTagName("template")[0];
+        let clon = temp.content.cloneNode(true);
+        document.body.appendChild(clon);
+      }
+      &lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
+  <h2>Output:</h2>
+  <h1>The template Element</h1>
+
+<p>Click the button below to display the hidden content from the template element.</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="Waterfall.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+</body>
+</html>
